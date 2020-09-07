@@ -1,3 +1,21 @@
+# CLI ANGULAR
+
+install: 
+```
+npm instang new my-dream-app
+cd my-dream-app
+ng servell -g @angular/cli
+
+```
+
+Missing write access to /usr/local/lib/node_modules
+
+![alt text](https://github.com/Thomasgravy/ANGULAR-TOUR-OF-HEROES/blob/master/error-npm-permission.png "error-npm-permission")
+```
+sudo chown -R $USER /usr/local/lib/node_modules
+```
+
+
 # AngularTourOfHeroes
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.6.
